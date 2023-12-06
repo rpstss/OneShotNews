@@ -1,0 +1,24 @@
+databases:
+  - name: prog2
+    databaseName: prog2
+    user: prog2
+    region: singapore
+    plan: free
+
+services:
+  - type: web
+    name: prog2-backend
+    runtime: python
+    region: singapore
+    plan: free
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn config.wsgi:application"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: prog2
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: WEB_CONCURRENCY
+        value: 4
