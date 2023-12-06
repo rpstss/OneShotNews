@@ -320,7 +320,7 @@ int main()
         smtpServer.dnsAddress="smtp.naver.com";
         smtpServer.username="******"; //유저 아이디
         smtpServer.password="*******"; //유저 비밀번호
-        smtpServer.emailFrom="jkuk3@naver.com";
+        smtpServer.emailFrom="*********";
         smtpServer.emailTo=str.c_str();
         smtpServer.subject="OneShotNews";
         smtpServer.message="오늘자 뉴스 업데이트!";
