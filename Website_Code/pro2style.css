@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Open+Sans:ital,wght@0,500;1,400&display=swap');
+@import "reset2.css";
+
+/* component */
+@import "component/headerbar.css";
+@import "component/select_lg.css";
+@import "component/news_part.css";
+
+/* screen */
+@import "screen/login.css";
+
+
+body {
+    height: 250vh;
+    background-color: #0F0F0F;
+    font-family: 'Gabarito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}

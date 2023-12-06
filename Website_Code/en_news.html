@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 문서 세팅 -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Shot News</title>
+    <link rel="stylesheet" href="pro2style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://canvas.ssu.ac.kr/accounts/1/files/262/download?verifier=jSYHBman3L5tTE4xWYZjyw7tpOPfKhKXnA9Cz1yp"
+    />
+  </head>
+
+  <body>
+    <!-- 상단바 (Header) -->
+    <headbar class="status-bar">
+      <div class="status-bar__column">
+        <a href="main_page.html" class="status-bar__title"
+          >One Shot News<i class="fa-solid fa-newspaper"></i
+        ></a>
+      </div>
+      <div class="status-bar__column">
+        <h2 id="clock">00:00:00</h2>
+      </div>
+      <div class="status-bar__column">
+        <!-- 로그인, 회원가입 버튼 -->
+        <a href="login.html">
+          <button class="status-bar__btn">Log in</button>
+        </a>
+        <a href="signup.html">
+          <button class="status-bar__btn">Sign up</button>
+        </a>
+      </div>
+    </headbar>
+    <!-- 언어 선택 부분 -->
+    <select_lg class="select_lg">
+      <form action="en_news.html">
+        <button class="kr lg_button">EN</button>
+      </form>
+      <form action="main_page.html">
+        <span class="slash">/</span>
+        <button class="en lg_button">KR</button>
+      </form>
+    </select_lg>
+    <!-- 메인 컨텐츠 -->
+    <main class="main">
+      <!-- 상단 뉴스 섹션 -->
+      <div class="news-box__top">
+        <div class="news-top news-t__f">
+          <input type="radio" name="my-input" id="yes" />
+          <label for="yes">Yes</label>
+          <img
+            src="https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/vivo/live/images/2023/10/14/6a45efeb-50ea-4ac8-9430-94ec36ae0b8d.jpg"
+          />
+          <div class="news-t-f__span">
+            <span
+              >Turning our attention now to Beijing, where EU foreign policy
+              chief Josep Borrell has just told a press conference that Israel's
+              evacuation order for people in northern Gaza was "utterly
+              impossible to implement".
+            </span>
+          </div>
+        </div>
+        <div class="news-top news-t__s">
+          <img
+            src="https://ichef.bbci.co.uk/onesport/cps/976/cpsprodpb/15D9F/production/_131430598_gettyimages-1734086172.jpg"
+          />
+          <div class="news-t-s__span">
+            <span
+              >Two goals from Cristiano Ronaldo helped Portugal seal
+              qualification to next summer's European Championship with three
+              games to spare as the hosts beat Slovakia in Group J in Porto.
+              After Goncalo Ramos' opener Ronaldo scored a penalty before David
+              Hancko pulled a goal back in the 69th minute.</span
+            >
+          </div>
+        </div>
+        <div class="news-top news-t__th">
+          <img src="https://ychef.files.bbci.co.uk/1600x900/p0f8jblh.webp" />
+          <div class="news-t-th__span">
+            <span
+              >The latest instalment of the artful action-filled franchise with
+              Keanu Reeves as the assassin we root for has no competition for
+              the year's best mainstream, commercial film so far. With a
+              multi-million-dollar price on his head, he trying to avoid being
+              killed.</span
+            >
+          </div>
+        </div>
+      </div>
+      <!-- 하단 뉴스 섹션 -->
+      <div class="news-box__bot">
+        <div class="news-bot news-b__f">
+          <img
+            src="https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/vivo/live/images/2023/10/14/aa478531-4506-4d4f-97d2-1d2784dce8e7.png"
+          />
+          <div class="news-b-f__span">
+            <span
+              >Israel's expected military operation is at the mercy of several
+              factors that could derail it. Hamas's armed wing will have
+              prepared for an Israeli offensive. It can use its notorious and
+              extensive network of tunnels to attack Israeli forces.
+            </span>
+          </div>
+        </div>
+        <div class="news-bot news-b__s">
+          <img
+            src="https://ichef.bbci.co.uk/news/976/cpsprodpb/0065/production/_131410100_gettyimages-698328082-1.jpg.webp"
+          />
+          <div class="news-b-s__span">
+            <span
+              >South Korea says China has forcibly repatriated a "large number"
+              of North Korean defectors. This follows recent reports from human
+              rights groups claiming that as many as 600 North Koreans have been
+              sent back. Seoul said on Friday that the reports appear to be
+              true, but did not confirm the exact number who were
+              repatriated.</span
+            >
+          </div>
+        </div>
+        <div class="news-bot news-b__th">
+          <img src="https://ychef.files.bbci.co.uk/1600x900/p0gkvhfw.webp" />
+          <div class="news-b-th__span">
+            <span
+              >Astronomers are drowning in data. On the ground and in space,
+              artificial eyes peer out in every direction from Earth. Where the
+              human eye can pick out only the 5,000 brightest stars in the sky,
+              the world's telescopes observe trillions.
+            </span>
+          </div>
+        </div>
+      </div>
+      <div id="quote">
+        <span></span>
+        <span></span>
+      </div>
+    </main>
+    <div id="splash-screen">
+      <h1 class="logo">One</h1>
+      <h1 class="logo">Shot</h1>
+      <h1 class="logo">News</h1>
+      <div id="mark">
+        <i class="fa-solid fa-newspaper"></i>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/ca12225e8b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quote.js"></script>
+  </body>
+</html>

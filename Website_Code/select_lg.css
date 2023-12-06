@@ -1,0 +1,51 @@
+/* 언어 선택 섹션 스타일 */
+.select_lg {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.8);
+    padding-top: 90px;
+}
+
+/* 슬래시 스타일 */
+.slash {
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/* 언어 선택 버튼 스타일 */
+.lg_button {
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #0F0F0F;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+/* HeartBeat 애니메이션 스타일 */
+@keyframes heartBeat {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color: #44AAD3;
+        transform: scale(0.8);
+    }
+    100% {
+        color: white;
+        transform: none;
+    }
+}
+
+/* 언어 선택 버튼 호버 스타일 */
+.lg_button:hover {
+    color: #44AAD3;
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
+    transition: all 0.5s ease-in-out;
+}

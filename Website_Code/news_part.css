@@ -1,0 +1,248 @@
+/* 상단 섹션 - 뉴스 박스를 표시하는 부분 */
+.news-box__top {
+    display: flex;
+    margin: 20px 10px;
+    justify-content: space-evenly;
+}
+
+/* 상단 뉴스 박스의 스타일링 */
+.news-top {
+    background-color: white;
+    width: 450px;
+    height: 650px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 50px;
+    margin-top: 40px;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+/* 확대 효과를 주기 위한 애니메이션 */
+@keyframes zoom {
+    from {
+        transform: none;
+    }
+    to {
+        transform: scale(1.25);
+    }
+}
+
+/* 상단 뉴스 박스의 첫 번째 항목에 대한 스타일링 */
+.news-t__f:hover {
+    animation: zoom 0.3s linear forwards;
+}
+
+/* 첫 번째 뉴스 항목의 이미지에 대한 스타일링 */
+.news-t__f img {
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 50px;
+    margin: 20px 24px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+/* 첫 번째 뉴스 항목의 텍스트에 대한 스타일링 */
+.news-t-f__span {
+    color: #0F0F0F;
+    margin: 20px 24px;
+    font-weight: 700;
+}
+
+.news-t__s img {
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 50px;
+    margin: 20px 24px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+/* 첫 번째 뉴스 항목의 텍스트에 대한 스타일링 */
+.news-t-s__span {
+    color: #0F0F0F;
+    margin: 20px 24px;
+    font-weight: 700;
+}
+
+.news-t__th img {
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 50px;
+    margin: 20px 24px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+/* 첫 번째 뉴스 항목의 텍스트에 대한 스타일링 */
+.news-t-th__span {
+    color: #0F0F0F;
+    margin: 20px 24px;
+    font-weight: 700;
+}
+
+/* 두 번째와 세 번째 뉴스 항목에 대한 비슷한 스타일링 및 주석 */
+
+/* 상단 뉴스 박스 전체에 대한 호버 효과 */
+.news-top:hover {
+    box-shadow: 1px 1px 20px #ddd;
+}
+
+/* 하단 섹션 - 뉴스 박스를 표시하는 부분 */
+.news-box__bot {
+    display: flex;
+    margin: 20px 10px;
+    justify-content: space-evenly;
+}
+
+/* 하단 뉴스 박스의 스타일링 */
+.news-bot {
+    background-color: white;
+    width: 450px;
+    height: 650px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 50px;
+    margin-top: 40px;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+/* 하단 뉴스 항목에 대한 확대 애니메이션 */
+.news-b__f:hover {
+    animation: zoom 0.3s linear forwards;
+}
+
+/* 하단 뉴스 항목의 이미지에 대한 스타일링 */
+.news-b__f img {
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 50px;
+    margin: 20px 24px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+/* 하단 뉴스 항목의 텍스트에 대한 스타일링 */
+.news-b-f__span {
+    color: #0F0F0F;
+    margin: 20px 24px;
+    font-weight: 700;
+}
+
+.news-b__s img {
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 50px;
+    margin: 20px 24px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+/* 하단 뉴스 항목의 텍스트에 대한 스타일링 */
+.news-b-s__span {
+    color: #0F0F0F;
+    margin: 20px 24px;
+    font-weight: 700;
+}
+
+.news-b__th img {
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 50px;
+    margin: 20px 24px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+/* 하단 뉴스 항목의 텍스트에 대한 스타일링 */
+.news-b-th__span {
+    color: #0F0F0F;
+    margin: 20px 24px;
+    font-weight: 700;
+}
+
+/* 두 번째와 세 번째 하단 뉴스 항목에 대한 비슷한 스타일링 및 주석 */
+
+/* 하단 뉴스 박스 전체에 대한 호버 효과 */
+.news-bot:hover {
+    box-shadow: 1px 1px 20px #ddd;
+}
+
+/* 스플래시 화면을 숨기기 위한 애니메이션 */
+@keyframes hideSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+/* 스플래시 화면의 스타일링 및 페이드 아웃 애니메이션 */
+#splash-screen {
+    background-color: #44AAD3;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 128px;
+    animation: hideSplashScreen 0.3s ease-in-out forwards;
+    animation-delay: 1.8s;
+}
+
+/* 로고가 나타나도록 하는 애니메이션 */
+@keyframes appearBtnAnimation {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+/* 로고가 하나씩 나타날 수 있도록 하는 스타일링 및 애니메이션 */
+.logo {
+    transform: translateY(50px);
+    opacity: 0;
+    animation: appearBtnAnimation 0.8s ease-in-out forwards;
+}
+
+/* 각 로고에 대한 딜레이 */
+.logo:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.logo:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.logo:last-child {
+    animation-delay: 0.9s;
+}
+
+/* 마크가 나타나도록 하는 스타일링과 애니메이션 */
+#mark {
+    transform: translateY(50px);
+    opacity: 0;
+    animation: appearBtnAnimation 0.8s ease-in-out forwards;
+    animation-delay: 0.8s;
+}
+
+/* 스플래시 화면 하단의 인용구에 대한 스타일링 */
+#quote {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}

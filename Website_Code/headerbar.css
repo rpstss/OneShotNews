@@ -1,0 +1,60 @@
+/* Status Bar 스타일 */
+.status-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* Status Bar의 각 열 스타일 */
+.status-bar__column {
+    padding: 10px;
+}
+
+/* Status Bar 제목 스타일 */
+.status-bar__title { 
+    font-size: 35px;
+    color: white;
+    font-weight: 800;
+    padding-left: 10px;
+}
+
+/* Status Bar 제목 호버 효과 */
+.status-bar__title:hover {
+    color: #44AAD3;
+    transition: all 0.5s ease-in-out;
+}
+
+/* 시계 스타일 */
+#clock {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+/* 로그인/회원가입 버튼 스타일 */
+.status-bar__btn {
+    width: 120px;
+    height: 50px;
+    border: solid 2px rgba(0, 0, 0, 0.9);
+    color: #0F0F0F;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 17px;
+    margin: 0px 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+/* 로그인/회원가입 버튼 호버 효과 */
+.status-bar__btn:hover {
+    color: rgba(0, 0, 0, 0.9);
+    background-color: #44AAD3;
+    cursor: pointer;
+}
+
+/* 로그인/회원가입 버튼 액티브 효과 */
+.status-bar__btn:active {
+    font-size: 13px;
+    cursor: pointer;
+}

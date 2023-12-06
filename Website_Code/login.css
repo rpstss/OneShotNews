@@ -1,0 +1,85 @@
+/* 회원가입 섹션 스타일 */
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 회원가입 바디 스타일 */
+.signup__body {
+    background-color: #202223;
+    margin-top: 50px;
+    width: 600px;
+    height: 700px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    align-items: center;
+}
+
+/* 환영 헤더 스타일 */
+.welcome-header {
+    margin: 90px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 환영 헤더 제목 스타일 */
+.welcome-header__title {
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+/* 환영 헤더 텍스트 스타일 */
+.welcome-header__text {
+    margin-top: 20px;
+    font-size: 17px;
+    color: white;
+}
+
+/* 로그인 폼 스타일 */
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+/* 로그인 폼 입력 요소 스타일 */
+#login-form input {
+    border: none;
+    padding: 15px 0px;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 25px;
+    transition: border-color 0.3s ease-in-out;
+    border-radius: 20px;
+}
+
+/* 로그인 폼 입력 요소 포커스 스타일 */
+#login-form input:focus {
+    background-color: #343541;
+}
+
+/* 로그인 폼 입력 요소 플레이스홀더 스타일 */
+#login-form input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+/* 로그인 폼 제출 버튼 스타일 */
+#login-form input[type="submit"] {
+    background-color: #03C75B;
+    cursor: pointer;
+    padding: 20px 0px;
+    border-radius: 20px;
+}
+
+/* 로그인 폼 링크 스타일 */
+#login-form a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+}
