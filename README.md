@@ -1,4 +1,4 @@
-# <span color ="blue">OneShotNews </span>
+# <span style="color:blue">OneShotNews</span>
 # OneShotNews
 ## OneShotNews
 ### OneShotNews
