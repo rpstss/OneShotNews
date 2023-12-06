@@ -1,0 +1,31 @@
+220 smtp.naver.com ESMTP 9jNVXrvWSH2Cg1qWxOIMIg - nsmtp
+ehlo smtp.naver.com
+auth login
+250-smtp.naver.com Pleased to meet you
+250-SIZE 20971520
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250 ENHANCEDSTATUSCODES
+amt1azM=
+334 VXNlcm5hbWU6
+IWxhbmd5aTA1MTY=
+334 UGFzc3dvcmQ6
+235 2.7.0 Accepted 9jNVXrvWSH2Cg1qWxOIMIg - nsmtp
+mail from:<jkuk3@naver.com>
+250 2.1.0 OK 9jNVXrvWSH2Cg1qWxOIMIg - nsmtp
+rcpt to:<beyondorder0928@gmail.com>
+250 2.1.5 OK 9jNVXrvWSH2Cg1qWxOIMIg - nsmtp
+data
+354 Go ahead 9jNVXrvWSH2Cg1qWxOIMIg - nsmtp
+To:beyondorder0928@gmail.com
+From:jkuk3@naver.com
+Subject:OneShotNews
+
+오늘자 뉴스 업데이트! 링크를 확인하세요.
+
+링크: https://prog2-frontend.onrender.com/
+.
+250 2.0.0 OK 9jNVXrvWSH2Cg1qWxOIMIg - nsmtp
+quit
+221 2.0.0 Closing connection 9jNVXrvWSH2Cg1qWxOIMIg - nsmtp
